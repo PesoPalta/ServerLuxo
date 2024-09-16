@@ -8,11 +8,17 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:cold_ocean": "2024-07-21 23:54:02 -0400",
+      "minecraft:beach": "2024-08-10 23:49:59 -0400",
       "minecraft:forest": "2024-07-20 21:37:34 -0400",
-      "minecraft:ocean": "2024-07-22 00:53:58 -0400",
-      "minecraft:cherry_grove": "2024-07-20 22:13:20 -0400",
+      "minecraft:taiga": "2024-08-11 00:02:40 -0400",
+      "minecraft:deep_ocean": "2024-08-10 23:09:20 -0400",
       "minecraft:stony_shore": "2024-07-25 22:24:53 -0400",
       "minecraft:dripstone_caves": "2024-07-25 22:36:30 -0400",
+      "minecraft:snowy_taiga": "2024-08-11 00:02:37 -0400",
+      "minecraft:ocean": "2024-07-22 00:53:58 -0400",
+      "minecraft:jungle": "2024-08-10 23:50:47 -0400",
+      "minecraft:cherry_grove": "2024-07-20 22:13:20 -0400",
+      "minecraft:snowy_beach": "2024-08-11 00:02:07 -0400",
       "minecraft:savanna": "2024-07-25 22:36:44 -0400",
       "minecraft:plains": "2024-07-20 21:37:40 -0400"
     },
@@ -1416,15 +1422,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/pumpkin_seeds": {
+  "minecraft:story/root": {
     "criteria": {
-      "has_pumpkin": "2024-07-28 01:20:42 -0400"
-    },
-    "done": true
-  },
-  "minecraft:end/elytra": {
-    "criteria": {
-      "elytra": "2024-07-28 01:25:16 -0400"
+      "crafting_table": "2024-07-28 00:54:05 -0400"
     },
     "done": true
   },
@@ -1452,15 +1452,87 @@
     },
     "done": true
   },
-  "minecraft:story/root": {
+  "minecraft:recipes/misc/pumpkin_seeds": {
     "criteria": {
-      "crafting_table": "2024-07-28 00:54:05 -0400"
+      "has_pumpkin": "2024-07-28 01:20:42 -0400"
     },
     "done": true
   },
   "minecraft:recipes/food/pumpkin_pie": {
     "criteria": {
       "has_pumpkin": "2024-07-28 01:20:42 -0400"
+    },
+    "done": true
+  },
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2024-07-28 01:25:16 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_smoking": {
+    "criteria": {
+      "has_kelp": "2024-08-10 23:11:26 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_planks": {
+    "criteria": {
+      "has_logs": "2024-08-11 00:03:08 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_smelting": {
+    "criteria": {
+      "has_kelp": "2024-08-10 23:11:26 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_wood": {
+    "criteria": {
+      "has_log": "2024-08-10 23:52:34 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_planks": {
+    "criteria": {
+      "has_logs": "2024-08-10 23:52:34 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_campfire_cooking": {
+    "criteria": {
+      "has_kelp": "2024-08-10 23:11:26 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/brown_dye": {
+    "criteria": {
+      "has_cocoa_beans": "2024-08-10 23:48:08 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_wood": {
+    "criteria": {
+      "has_log": "2024-08-11 00:03:08 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cookie": {
+    "criteria": {
+      "has_cocoa": "2024-08-10 23:48:08 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/firework_rocket_simple": {
+    "criteria": {
+      "has_gunpowder": "2024-08-10 23:59:42 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tnt": {
+    "criteria": {
+      "has_gunpowder": "2024-08-10 23:59:42 -0400"
     },
     "done": true
   },

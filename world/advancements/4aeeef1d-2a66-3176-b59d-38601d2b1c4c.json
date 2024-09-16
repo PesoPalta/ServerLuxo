@@ -10,6 +10,7 @@
       "minecraft:cold_ocean": "2024-07-21 23:36:13 -0400",
       "minecraft:snowy_slopes": "2024-07-23 17:53:58 -0400",
       "minecraft:forest": "2024-07-18 16:17:31 -0400",
+      "minecraft:taiga": "2024-08-11 00:05:39 -0400",
       "minecraft:deep_ocean": "2024-07-30 23:00:51 -0400",
       "minecraft:lush_caves": "2024-07-18 17:06:31 -0400",
       "minecraft:deep_cold_ocean": "2024-07-21 23:17:28 -0400",
@@ -38,6 +39,7 @@
       "minecraft:stony_shore": "2024-07-18 16:18:17 -0400",
       "minecraft:snowy_plains": "2024-07-21 23:39:05 -0400",
       "minecraft:dripstone_caves": "2024-07-19 22:52:11 -0400",
+      "minecraft:snowy_taiga": "2024-08-11 00:03:56 -0400",
       "minecraft:frozen_peaks": "2024-07-21 20:54:37 -0400",
       "minecraft:old_growth_birch_forest": "2024-07-19 22:20:12 -0400",
       "minecraft:deep_dark": "2024-07-20 22:50:20 -0400",
@@ -4834,6 +4836,13 @@
     },
     "done": true
   },
+  "minecraft:husbandry/complete_catalogue": {
+    "criteria": {
+      "minecraft:persian": "2024-08-01 22:28:59 -0400",
+      "minecraft:red": "2024-08-01 22:24:35 -0400"
+    },
+    "done": false
+  },
   "minecraft:recipes/building_blocks/stripped_oak_wood": {
     "criteria": {
       "has_log": "2024-08-01 22:31:18 -0400"
@@ -4846,12 +4855,23 @@
     },
     "done": true
   },
-  "minecraft:husbandry/complete_catalogue": {
+  "minecraft:recipes/misc/pink_dye_from_peony": {
     "criteria": {
-      "minecraft:persian": "2024-08-01 22:28:59 -0400",
-      "minecraft:red": "2024-08-01 22:24:35 -0400"
+      "has_peony": "2024-08-10 23:34:52 -0400"
     },
-    "done": false
+    "done": true
+  },
+  "minecraft:adventure/throw_trident": {
+    "criteria": {
+      "shot_trident": "2024-08-16 23:37:36 -0400"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/obtain_sniffer_egg": {
+    "criteria": {
+      "obtain_sniffer_egg": "2024-08-17 01:20:44 -0400"
+    },
+    "done": true
   },
   "DataVersion": 3953
 }
